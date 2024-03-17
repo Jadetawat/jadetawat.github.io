@@ -1,0 +1,164 @@
+.button {
+    background-color: SteelBlue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+}
+
+.button:hover {
+    background: cyan;
+    color: steelblue;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    min-height: 100vh;
+    grid-template-areas:
+        'header header header header'
+        'leftbar l_main r_main rightbar'
+        'footer footer footer footer';
+
+}
+
+.page-header {
+    grid-area: header;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+
+}
+
+.page-l_main {
+    grid-area: l_main;
+    background-color: #ffffff;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+.page-r_main {
+    grid-area: r_main;
+    background-color: white;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+.page-rightbar {
+    grid-area: rightbar;
+    background-color: lightgrey;
+
+
+}
+
+.page-leftbar {
+    grid-area: leftbar;
+    background-color: lightgrey;
+
+
+}
+
+.page-footer {
+    grid-area: footer;
+    background-color: steelblue;
+    color: white;
+
+}
+
+.content {
+  
+    padding: 2%;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border: none;
+    background: SteelBlue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+input[type=file]::file-selector-button:hover {
+    background: cyan;
+    color: steelblue;
+}
+
+.fill img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.fill {
+    margin-right: 11px;
+    width: 600px;
+    height: 700px;
+    border: 3px black solid;
+
+}
+
+
+
+p {
+    color: red;
+    font-size: 50px;
+}
+
+label {
+    font-size: 30px;
+
+}
+
+select {
+    font-size: 30px;
+
+}
+
+
+#file {
+    font-size: 30px;
+}
+
+select option {
+    font-size: 30px;
+}
+
+#extract {
+    margin-bottom: 100px;
+
+}
+
+.select_color {
+    background-color: SteelBlue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 100px;
+
+}
+
+.select_color:hover {
+    background-color: cyan;
+    color: steelblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+
+}

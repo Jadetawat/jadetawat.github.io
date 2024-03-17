@@ -1,0 +1,102 @@
+.button {
+    background-color: SteelBlue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+}
+
+.button:hover {
+    background: cyan;
+    color: steelblue;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    min-height: 100vh;
+    grid-template-areas:
+        'header header header '
+        'leftbar main  rightbar'
+        'footer footer footer';
+
+}
+
+.page-header {
+    grid-area: header;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+
+}
+
+.page-main {
+    grid-area: main;
+    background-color: #ffffff;
+
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+}
+
+
+
+.page-rightbar {
+    grid-area: rightbar;
+    background-color: lightgrey;
+
+
+}
+
+.page-leftbar {
+    grid-area: leftbar;
+    background-color: lightgrey;
+
+
+}
+
+.page-footer {
+    grid-area: footer;
+    background-color: steelblue;
+    color: white;
+
+}
+
+.content {
+
+    padding: 2%;
+}
+
+table th {
+    border: 1px solid;
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table td {
+    border: 1px solid;
+    font-size: 12px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a{
+    font-size: 20px;
+}
+
+
